@@ -4,7 +4,7 @@
 
 You can use a virtual environment (conda, venv, etc):
 ```
-conda env create -f environment.yml
+conda env create -f environment.yaml
 source activate code-challenge
 ```
 
@@ -41,7 +41,7 @@ http://localhost:5000/apidocs
 
 You can use a virtual environment (conda, venv, etc):
 ```
-conda env create -f environment.test.yml
+conda env create -f environment.test.yaml
 source activate code-challenge-tests
 ```
 
