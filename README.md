@@ -52,3 +52,4 @@ pip install -r requirements.test.txt
 1. There is overlap in the bitbucket/github API (especially aggragate). Would probably want to clean that up and make it more DRY
 2. Tests are not complete ~ need more comperhensive testing around API responses
 3. Handle failure cases, currently this works or a 500 is thrown 
+4. Handle API authentication in a reasonable way

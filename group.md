@@ -28,7 +28,7 @@ Aggragates Github Org and Bitbucket team information.
         "original": 5,
         "forked": 4 
     },
-    "watcher_follower_count": 20,
+    "watchers": 20,
     "languages": [],
     "topics": []
 }
@@ -38,9 +38,9 @@ Aggragates Github Org and Bitbucket team information.
 
 **Condition** : If Account does not exist in either bitbucket or github.
 
-**Code** : `404 NOT FOUND`
+**Code** : `500 Internal Server Error`
 
-**Content** : `{}`
+**Content** : `Exception: Github API Error`
 
 ### Or
 
@@ -48,11 +48,7 @@ Aggragates Github Org and Bitbucket team information.
 
 **Code** : `500 Internal Server Error`
 
-**Content** :
-
-```json
-{"detail": "Try again Later"}
-```
+**Content** : `Exception: ...`
 
 ## Notes
 

@@ -49,7 +49,7 @@ Bitbucket API is pagenated, so will need to crawl `next` links to get all repos
 
 ## Decisions
 
-It was a super nice weekend, so in order to save time I decided MVP was happy path only. 
+It was a super nice weekend, so in order to save time I decided MVP was happy path only. Next iteration would take into account clarifying questions. 
 
 ### Workflow
 
