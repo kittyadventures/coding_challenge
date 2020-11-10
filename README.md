@@ -39,6 +39,7 @@ http://localhost:5000/apidocs
 
 ## Tests
 
+### Env
 You can use a virtual environment (conda, venv, etc):
 ```
 conda env create -f environment.test.yaml
@@ -49,6 +50,7 @@ Or just pip install from the requirements file
 ``` 
 pip install -r requirements.test.txt
 ```
+### Running tests
 
 ```
 python -m unittest
