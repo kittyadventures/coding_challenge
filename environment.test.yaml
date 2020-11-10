@@ -1,0 +1,10 @@
+name: code-challenge-tests
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - Flask==1.0.2
+  - pip:
+      - flasgger==0.9.5
+      - requests==2.24.0
+      - responses==0.12.0
