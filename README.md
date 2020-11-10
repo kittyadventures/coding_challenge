@@ -5,7 +5,7 @@
 You can use a virtual environment (conda, venv, etc):
 ```
 conda env create -f environment.yaml
-source activate code-challenge
+conda activate code-challenge
 ```
 
 Or just pip install from the requirements file
@@ -42,7 +42,7 @@ http://localhost:5000/apidocs
 You can use a virtual environment (conda, venv, etc):
 ```
 conda env create -f environment.test.yaml
-source activate code-challenge-tests
+conda activate code-challenge-tests
 ```
 
 Or just pip install from the requirements file
@@ -50,7 +50,9 @@ Or just pip install from the requirements file
 pip install -r requirements.test.txt
 ```
 
-
+```
+python -m unittest
+```
 
 ## What'd I'd like to improve on...
 
