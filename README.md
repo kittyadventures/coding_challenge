@@ -33,6 +33,10 @@ Swagger API:
 http://localhost:5000/apidocs
 ```
 
+## Docs 
+
+[Implimentation Docs](implimentation.md)
+
 ## Tests
 
 You can use a virtual environment (conda, venv, etc):
@@ -45,6 +49,7 @@ Or just pip install from the requirements file
 ``` 
 pip install -r requirements.test.txt
 ```
+
 
 
 ## What'd I'd like to improve on...
